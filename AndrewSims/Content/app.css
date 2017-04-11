@@ -1,0 +1,41 @@
+﻿body {
+   font-family: 'Palanquin Dark', sans-serif;
+    color:white;
+    background-color:black;
+}
+
+h1 {
+    margin:0px;
+}
+
+/*Eliminates the Gap at the bottom of the Navigation Bar*/
+.navbar  {
+    margin-bottom:0px;
+}
+
+/*Creates a full screen background image; in conjunction with Javascript call to re-size*/
+.fill-screen {
+    background-size:cover;
+    background-position:center;
+}
+
+/*Adds a cool effect; doesn't work on Mobile Devices*/
+.fixed-attachment{
+    background-attachment:fixed;
+}
+@media(max-width:1024px){
+.fixed-attachment{
+    background-attachment:scroll;
+}
+}
+
+.content-filler {
+    min-height:350px;
+}
+
+footer {
+    font-size:x-small;
+    margin-top:25px;
+    text-align:center;
+    color:whitesmoke;
+}
